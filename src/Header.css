@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  height: 100px;
+  background-color: darkslategray;
+  align-items: center;
+}
+
+.brand-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.menu-nav {
+  width: 60%;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0;
+}
+
+li {
+  width: 32%;
+  margin: 5px;
+}
+

@@ -1,0 +1,40 @@
+.card {
+  width: 100%;
+  border: 1px solid #fff;
+  position: relative;
+  padding: 20px;
+}
+
+.top {
+  background-color: darkturquoise;
+  padding: 5px;
+}
+
+h3 {
+  margin-left: 5px;
+  font-weight: 1.5rem;
+}
+
+
+.circle-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border-width: 7px;
+  border-style: solid;
+  border-color: white;
+  position: absolute;
+  right: 35px;
+  top: 37px;
+
+}
+
+.contacts {
+  background-color: darkslategray;
+  padding: 10px;
+  height: 100px;
+}
+
+p:first-of-type {
+  margin-top: 0;
+}
