@@ -3,15 +3,17 @@ import './Card.css';
 import Avatar from './Avatar';
 
 const Card = (props) => {
+  console.log(props)
   return (
     <div  className="card">
       <div className="top">
-        <h3>{props.name}</h3>
-        <Avatar imgUrl={props.imgUrl} />
+        <h3>{props.title}</h3>
+        <Avatar imgUrl={props.poster_path} />
       </div>
-      <div className="contacts">
-        <p>{props.tel}</p>
-        <p>{props.email}</p>
+      <div className="detailsInfo">
+        <p>{props.overview}</p>
+        <p>{props.popularity}</p>
+        <p>Release Date: {props.release_date}</p>
       </div>
     </div>
   )
